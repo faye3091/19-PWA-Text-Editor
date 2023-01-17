@@ -18,9 +18,8 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      
       new HtmlWebpackPlugin({
-        template: ".index.html",
+        template: "./index.html",
         title: "JATE",
       }),
       //injects our custom service work from src-sw.js
@@ -35,8 +34,8 @@ module.exports = () => {
         name: "Just Another Text Editor",
         short_name: "JATE",
         description: "Text Editor with offline capabilities using IndexedDB",
-        background_color: "225ca3",
-        theme_color: "225ca3",
+        background_color: "#225ca3",
+        theme_color: "#225ca3",
         start_url: "/",
         publicPath: "/",
         icons: [
