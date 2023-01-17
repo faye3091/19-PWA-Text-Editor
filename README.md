@@ -66,7 +66,7 @@
   <br />Then open Insomia and type http://localhost:3000/ to run this application on your local machine.
 
   ## Deployed Link
-  The link to the deployed application is: 
+  The link to the deployed application is: [Heroku App](https://text-editor-19-jate.herokuapp.com/)
 
   ## Contributing 
   Fork and then code
