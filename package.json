@@ -1,5 +1,5 @@
 {
-  "name": "19-pwa-text-editor",
+  "name": "jate",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -12,21 +12,23 @@
     "client": "cd client && npm start",
     "heroku-prebuild": "npm install --dev"
   },
+  "keywords": [],
+  "author": "Vanessa Villaluz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/faye3091/19-PWA-Text-Editor.git"
   },
-  "author": "Vanessa Villaluz",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/faye3091/19-PWA-Text-Editor/issues"
   },
-  "homepage": "https://github.com/faye3091/19-PWA-Text-Editor#readme",
-  "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "concurrently": "^7.6.0",
-    "nodemon": "^2.0.20"
-  }
+  "homepage": "https://github.com/faye3091/19-PWA-Text-Editor#readme"
 }
